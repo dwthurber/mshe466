@@ -93,7 +93,7 @@ header h1 {
   position: relative;
   margin: 0 auto;
   width: 100%;
-  max-width: 650px;
+  max-width: 950px;
 }
 .cd-product-wrapper > img {
   display: block;
@@ -221,20 +221,6 @@ header h1 {
   /* pulse effect no more active on visited elements */
   display: none;
 }
-@media only screen and (min-width: 600px) {
-  .cd-single-point.is-open .cd-more-info.cd-left {
-    right: 140%;
-  }
-  .cd-single-point.is-open .cd-more-info.cd-right {
-    left: 140%;
-  }
-  .cd-single-point.is-open .cd-more-info.cd-top {
-    bottom: 140%;
-  }
-  .cd-single-point.is-open .cd-more-info.cd-bottom {
-    top: 140%;
-  }
-}
 
 @-webkit-keyframes cd-pulse {
   0% {
@@ -306,6 +292,11 @@ header h1 {
   -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s, -webkit-transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
   -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s, -moz-transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
   transition: opacity 0.3s 0s, visibility 0s 0.3s, transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
+}
+.cd-more-info-container {
+  max-width: 950px;
+  display: block;
+  margin: 0 auto;
 }
 .cd-single-point .cd-more-info::before {
   /* triangle next to the interest point description - hidden on mobile */
