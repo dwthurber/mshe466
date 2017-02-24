@@ -35,7 +35,12 @@ strong {
 }
 
 ol {
-  padding-left: 40;
+  padding-left: 20px;
+  color: #758eb1;
+  list-style-type: decimal;
+}
+ul {
+  padding-left: 20px;
   color: #758eb1;
   list-style-type: disc;
 }
@@ -93,7 +98,7 @@ header h1 {
   position: relative;
   margin: 0 auto;
   width: 100%;
-  max-width: 950px;
+  max-width: 750px;
 }
 .cd-product-wrapper > img {
   display: block;
@@ -160,31 +165,31 @@ header h1 {
   -moz-animation: cd-pulse 2s infinite;
   animation: cd-pulse 2s infinite;
 }
-#page1 .cd-single-point:nth-of-type(1) {
-  bottom: 32%;
+.cd-single-point:nth-of-type(1) {
+  bottom: 35%;
   left: 12%;
 }
-#page1 .cd-single-point:nth-of-type(2) {
-  top: 12%;
-  left: 22%;
+.cd-single-point:nth-of-type(2) {
+  top: 48%;
+  left: 48%;
 }
-#page1 .cd-single-point:nth-of-type(3) {
-  top: 36%;
-  left: 44%;
+.cd-single-point:nth-of-type(3) {
+  bottom: 29%;
+  left: 48%;
 }
-#page1 .cd-single-point:nth-of-type(4) {
-  bottom: 48%;
-  left: 4%;
+.cd-single-point:nth-of-type(4) {
+  top: 43%;
+  right: 19%;
 }
-#page1 .cd-single-point:nth-of-type(5) {
-  bottom: 12.5%;
-  left: 41%;
+.cd-single-point:nth-of-type(5) {
+  top: 17%;
+  left: 15%;
 }
-#page2 .cd-single-point:nth-of-type(1) {
+.cd-single-point:nth-of-type(6) {
   top: 9%;
   left: 36%;
 }
-#page2 .cd-single-point:nth-of-type(2) {
+.cd-single-point:nth-of-type(7) {
   bottom: 15.5%;
   left: 31.5%;
 }
@@ -294,7 +299,7 @@ header h1 {
   transition: opacity 0.3s 0s, visibility 0s 0.3s, transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
 }
 .cd-more-info-container {
-  max-width: 950px;
+  max-width: 750px;
   display: block;
   margin: 0 auto;
 }
@@ -311,9 +316,12 @@ header h1 {
   font-size: 22px;
   font-size: 1.375rem;
   margin-bottom: .6em;
+  font-weight: bolder;
 }
 .cd-single-point .cd-more-info h3 {
   margin-top: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .cd-single-point .cd-more-info p {
   color: #758eb1;
@@ -322,13 +330,13 @@ header h1 {
 
 .cd-single-point .cd-more-info img {
   display: block;
-  width: 80%;
+  width: 100%;
   margin: 20px auto;
 }
 
 .cd-single-point .cd-more-info iframe {
   display: block;
-  width: 80%;
+  width: 100%;
   margin: 20px auto;
 }
 
