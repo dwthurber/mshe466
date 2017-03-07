@@ -14,16 +14,4 @@ jQuery(document).ready(function($){
 		$(this).parents('.cd-single-point').eq(0).removeClass('is-open').addClass('visited');
 	});
 	
-	$('#page1Button').on('click', function(event) {
-		$('#page1').show();	
-		$('#page2').hide();	
-		$(this).addClass('active');
-		$('#page2Button').removeClass('active');
-	});
-	$('#page2Button').on('click', function(event) {
-		$('#page2').show();	
-		$('#page1').hide();
-		$(this).addClass('active');
-		$('#page1Button').removeClass('active');
-	});
 });

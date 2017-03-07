@@ -186,12 +186,8 @@ header h1 {
   left: 15%;
 }
 .cd-single-point:nth-of-type(6) {
-  top: 9%;
-  left: 36%;
-}
-.cd-single-point:nth-of-type(7) {
-  bottom: 15.5%;
-  left: 31.5%;
+  top: 5%;
+  right: 20%;
 }
 .cd-single-point.is-open > a {
   background-color: #475f74;
