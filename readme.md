@@ -1,4 +1,5 @@
-#MSHE 466 Conceptual Framework graphic
+MSHE 466 Conceptual Framework graphic
+=====================================
 
 Created for the Higher Education Administration and Policy Program at Northwestern University.
 
